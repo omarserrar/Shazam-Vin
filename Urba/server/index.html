@@ -1,0 +1,64 @@
+<html>
+      <form method="post" action="/file" enctype="multipart/form-data">
+        <div>
+          <label for="file">Sélectionner le fichier à envoyer</label>
+          <input type="file" id="file" name="picture" multiple>
+        </div>
+        <div>
+          <button>Envoyer</button>
+        </div>
+       </form>
+       <form method="post" action="/vin/image" enctype="multipart/form-data">
+        <h4>Upload</h4>
+        <div>
+          <label for="file">ID</label>
+          <input type="text" id="token" name="vinId" multiple>
+        </div>
+        <div>
+          <label for="file">Sélectionner le fichier à envoyer</label>
+          <input type="file" id="file" name="picture" multiple>
+        </div>
+        <div>
+          <button>Envoyer</button>
+        </div>
+       </form>
+       <form method="post" action="/verifyLogin">
+        <div>
+          <label for="file">Token</label>
+          <input type="text" id="token" name="token" multiple>
+        </div>
+        <div>
+          <button>Envoyer</button>
+        </div>
+       </form>
+
+
+       <form method="post" action="/register">
+        <h4>Register</h4>
+        <div>
+          <label for="file">Username</label>
+          <input type="text" id="file" name="username" multiple>
+        </div>
+        <div>
+          <label for="file">Password</label>
+          <input type="text" id="file" name="password" multiple>
+        </div>
+        <div>
+          <button>Envoyer</button>
+        </div>
+       </form>
+       <form method="post" action="/login">
+        <h4>Login</h4>
+        <div>
+          <label for="file">Username</label>
+          <input type="text" id="file" name="username" multiple>
+        </div>
+        <div>
+          <label for="file">Password</label>
+          <input type="text" id="file" name="password" multiple>
+        </div>
+        <div>
+          <button>Envoyer</button>
+        </div>
+       </form>
+</html>
